@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TechBookie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="sm:flex justify-between  sm:items-center text-white  py-[20px] sm:px-[60px] px-[30px] bg-[#FF7235]">
+        <h1 class="text-black text-4xl font-bold ml-[-28px]- sm:ml-0 ">Teach<span class="text-white">Bookie</span></h1>
+        <i id="menuBtn" class="fa-solid fa-bars absolute right-3 top-7 text-4xl block sm:hidden "></i>
+        <i id="closeBtn" class="fa-solid fa-x absolute right-3 top-7 hidden text-4xl  sm:hidden"></i>
+        <ul id="links" class="sm:flex hidden flex-col sm:flex-row sm:gap-[50px] gap-4 mt-10 sm:mt-0  text-3xl">
+            <li>Home</li>
+            <li>Pricing</li>
+            <li>About Us</li>
+        </ul>
+        <div id="buttons" class="hidden  sm:flex justify-start flex-col sm:flex-row">
+            <button class="py-3 sm:px-6 rounded  text-3xl  text-white">Login</button>
+            <button class="py-3 sm:px-6 w-full text-start sm:text-center pl-[20px]  rounded text-2xl bg-white text-[#FF7235] text-[25px] font-semibold hover:bg-[#FF7235] hover:text-white hover:border-2 border-white">Register</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
